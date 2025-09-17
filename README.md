@@ -8,9 +8,7 @@ This Java application demonstrates Redis connectivity with RediSearch functional
 - **Search Index Management**: Automatic creation and management of RediSearch indexes using Jedis built-in API
 - **Account Data Storage**: JSON-based storage using proper `jedis.jsonSet()` and `jedis.jsonGet()` methods
 - **Full-Text Search**: Comprehensive search functionality using `jedis.ftSearch()` with field-specific returns
-- **Configuration Management**: Externalized configuration with security best practices
 - **Modern Jedis API**: Uses `JedisPooled` for optimal connection pooling with full JSON support
-- **No Raw Commands**: Exclusively uses Jedis built-in methods instead of `sendCommand()`
 
 ## Search Index Schema
 
