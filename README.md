@@ -1,4 +1,4 @@
-# MCM Java Redis Application
+# Sample Jedis Java Redis Application
 
 This Java application demonstrates Redis connectivity with RediSearch functionality for account data management.
 
